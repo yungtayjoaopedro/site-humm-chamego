@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humm Chamego! | Doces feitos com carinho</title>
+  <meta name="description" content="Humm Chamego! - doces artesanais feitos com carinho em Guarulhos, SP. Encomendas e delivery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style (1).css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header__bar">
+      <a href="#topo" class="logo">Humm Chamego<span class="logo__mark">!</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#como-pedir">Como pedir</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5511970945513" class="btn btn--pink header__cta" target="_blank" rel="noopener">
+        Fazer pedido
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- Herói -->
+    <section class="hero">
+      <div class="hero__blob" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Guarulhos, SP · Encomendas e delivery</p>
+        <h1 class="hero__title">Sabores que transformam momentos em experiências.</h1>
+        <p class="hero__subtitle">
+          Doces artesanais feitos com carinho, um a um, pra adoçar o seu dia
+          ou aquela ocasião especial.
+        </p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5511970945513" class="btn btn--pink" target="_blank" rel="noopener">
+            Fazer meu pedido
+          </a>
+          <a href="#cardapio" class="btn btn--outline">Ver cardápio</a>
+        </div>
+      </div>
+
+      <svg class="hero__cupcake" viewBox="0 0 200 200" aria-hidden="true">
+        <ellipse cx="100" cy="170" rx="55" ry="10" fill="#00000012"/>
+        <path d="M55 110 L145 110 L132 175 Q100 190 68 175 Z" fill="#F3B6C8"/>
+        <path d="M55 110 L145 110 L140 125 L60 125 Z" fill="#E08CA5"/>
+        <path d="M60 115 Q100 60 140 115 Q120 95 100 100 Q80 95 60 115 Z" fill="#4A2F22"/>
+        <circle cx="100" cy="58" r="8" fill="#E08CA5"/>
+      </svg>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+      <div class="container sobre__grid">
+        <div class="sobre__text">
+          <p class="eyebrow">Sobre a Humm Chamego!</p>
+          <h2>Doces feitos com carinho, do jeitinho de casa.</h2>
+          <p>
+            Tudo começou com a vontade de transformar receitas de família em
+            momentos de chamego pra quem prova. Cada doce é preparado em
+            pequenas quantidades, com ingredientes selecionados e muito
+            cuidado em cada etapa.
+          </p>
+          <p>
+            Hoje atendemos Guarulhos e região com encomendas e delivery,
+            sempre com aquele sabor que parece um abraço.
+          </p>
+        </div>
+        <div class="sobre__figure" aria-hidden="true">
+          <div class="sobre__blob"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section class="cardapio" id="cardapio">
+      <div class="container">
+        <p class="eyebrow center">Cardápio</p>
+        <h2 class="center">Alguns dos nossos docinhos</h2>
+        <p class="cardapio__intro center">
+          Este é só um gostinho do que a gente faz — fale com a gente pelo
+          WhatsApp pra saber os sabores e valores da semana.
+        </p>
+
+        <div class="cardapio__grid">
+          <article class="card card--pink">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-17 at 16.45.35.jpeg" alt="Trufa de prestígio" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Trufas</span>
+              <h3>Trufa de prestígio</h3>
+              <p>Chocolate e coco em equilíbrio perfeito, do jeitinho que a gente ama.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--cream">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.23.jpeg" alt="Trufa de brigadeiro" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Trufas</span>
+              <h3>Trufa de brigadeiro</h3>
+              <p>O clássico brigadeiro em formato de trufa, com casquinha crocante.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--blue">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.22.jpeg" alt="Trufa de maracujá" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Trufas</span>
+              <h3>Trufa de maracujá</h3>
+              <p>Casquinha de chocolate com recheio azedinho de maracujá.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--pink">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-17 at 16.45.53.jpeg" alt="Trufa de limão" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Trufas</span>
+              <h3>Trufa de limão</h3>
+              <p>Recheio cremoso de limão envolto em chocolate.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--cream">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-17 at 16.47.29.jpeg" alt="Trufa de ninho" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Trufas</span>
+              <h3>Trufa de ninho</h3>
+              <p>Recheio de leite ninho cremoso envolto em chocolate branco.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--blue">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.16 (1).jpeg" alt="Mousse de maracujá" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Outros</span>
+              <h3>Mousse de maracujá</h3>
+              <p>Leve, cremoso e com aquele azedinho gostoso na medida certa.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--pink">
+            <img src="images/mousse-limao.jpeg" alt="Mousse de limão" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Outros</span>
+              <h3>Mousse de limão</h3>
+              <p>Cremosa e cítrica, com aquele toque de limão que refresca a qualquer hora.</p>
+              <span class="card__preco">R$ 8,00</span>
+            </div>
+          </article>
+
+          <article class="card card--cream">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.18.jpeg" alt="Bolo de brigadeiro" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Outros</span>
+              <h3>Bolo de brigadeiro</h3>
+              <p>Massa fofinha com generosa cobertura de brigadeiro.</p>
+              <span class="card__preco">R$ 15,00</span>
+            </div>
+          </article>
+
+          <article class="card card--blue">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.16 (2).jpeg" alt="Bolo de prestígio" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Outros</span>
+              <h3>Bolo de prestígio</h3>
+              <p>Massa fofinha com cobertura de chocolate e coco.</p>
+              <span class="card__preco">R$ 15,00</span>
+            </div>
+          </article>
+
+          <article class="card card--pink">
+            <img src="c:\Users\yungt\Downloads\WhatsApp Image 2026-09-15 at 23.20.17 (1).jpeg" alt="Bolo de ninho" class="card__foto">
+            <div class="card__corpo">
+              <span class="card__tag">Outros</span>
+              <h3>Bolo de ninho</h3>
+              <p>Massa fofinha com cobertura cremosa de leite ninho.</p>
+              <span class="card__preco">R$ 17,00</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como pedir -->
+    <section class="passos" id="como-pedir">
+      <div class="container">
+        <p class="eyebrow center">Como pedir</p>
+        <h2 class="center">Do pedido até a sua mesa</h2>
+
+        <ol class="passos__lista">
+          <li>
+            <span class="passos__numero">1</span>
+            <h3>Escolha os docinhos</h3>
+            <p>Dê uma olhada no cardápio e escolha os sabores que mais te chamaram.</p>
+          </li>
+          <li>
+            <span class="passos__numero">2</span>
+            <h3>Fale no WhatsApp</h3>
+            <p>Envie sua mensagem com os itens, quantidade e data desejada.</p>
+          </li>
+          <li>
+            <span class="passos__numero">3</span>
+            <h3>Combine a entrega</h3>
+            <p>A gente confirma o valor e combina retirada ou delivery com você.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+      <div class="container contato__box">
+        <h2>Vamos combinar o seu chamego?</h2>
+        <p>Fale com a gente e monte seu pedido em poucos minutos.</p>
+        <a href="https://wa.me/5511970945513" class="btn btn--pink" target="_blank" rel="noopener">
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <p class="logo logo--footer">Humm Chamego<span class="logo__mark">!</span></p>
+        <p>Doces feitos com carinho.</p>
+      </div>
+
+      <div class="footer__info">
+        <p>Guarulhos, SP</p>
+        <p>WhatsApp: (11) 97094-5513</p>
+        <a href="https://instagram.com/hummchamego" target="_blank" rel="noopener">@hummchamego</a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="ano"></span> Humm Chamego! — feito com carinho.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
