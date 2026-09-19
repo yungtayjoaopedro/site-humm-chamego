@@ -1,0 +1,7 @@
+Coloque aqui as fotos reais dos seus doces (ex: mousse.jpg, brigadeiro.jpg).
+
+Depois, no index.html, você pode trocar os cards de texto por imagens assim:
+
+<img src="images/mousse.jpg" alt="Mousse de maracujá">
+
+Dica: fotos quadradas (ex: 800x800px) costumam ficar mais bonitas no cardápio.
